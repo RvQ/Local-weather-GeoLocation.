@@ -10,7 +10,7 @@ function success(pos) {
   var lon = crd.longitude;
 
 var myHeaders = new Headers();
-  var url = 'http://api.openweathermap.org/data/2.5/weather?lat='+lat+'&lon='+lon+'&units=metric&cnt=7&lang=en&appid=753983d1101525edd0545786efa2b53d';
+  var url = 'http://api.openweathermap.org/data/2.5/weather?lat='+lat+'&lon='+lon+'&units=metric&cnt=7&lang=en&appid=b3ca77bac900dc0db1c675d394710888';
   var myInit = { method: 'GET',
                  headers: myHeaders,
                  mode: 'cors',
